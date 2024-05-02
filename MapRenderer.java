@@ -24,7 +24,6 @@ public class MapRenderer {
     		}
 			if(y==15) {
 				System.out.println("end map");
-				System.out.println("");
 				y = 0;
 
 			}
