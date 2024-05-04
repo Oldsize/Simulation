@@ -19,7 +19,7 @@ public class Map {
     private HashMap<Coordinates, Entity> map = new HashMap<>();
     public HashMap<Coordinates, Entity> getMap() { return map; }
 
-    private final int BOUND = 15;
+    private final int BOUND = 30;
 
 
     public boolean isSquareEmpty(Coordinates coordinates) {
@@ -350,28 +350,82 @@ public class Map {
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bunny(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", AnimalType.HERBIVORE));
         //BUNNIES
         //🌳
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tree( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF33", AnimalType.STATICOBJECT, false));
+
         //TREES
         //🐑
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Sheep(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC11", AnimalType.HERBIVORE));
+
         //SHEEPS
         //🐓
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Cock(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), " \uD83D\uDC13", AnimalType.HERBIVORE));
+
         //COCKS
         //⛰
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Rock( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\u26F0", AnimalType.STATICOBJECT, false));
         //ROCKS
         //🍃
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true));
@@ -393,11 +447,20 @@ public class Map {
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
         //WOLF
         //🐅
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tiger(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC05", 10, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tiger(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC05", 10, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tiger(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC05", 10, AnimalType.PREDATOR));
         //TIGER
         //🐻
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bear(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3B", 20, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bear(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3B", 20, AnimalType.PREDATOR));
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bear(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3B", 20, AnimalType.PREDATOR));
         //BEAR
         
@@ -429,4 +492,3 @@ public class Map {
     	}
     }
 }
-
