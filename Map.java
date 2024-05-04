@@ -319,12 +319,12 @@ public class Map {
     }
     private ArrayList<Coordinates> arrCoord = new ArrayList<>();
     public ArrayList<Coordinates> getAllEntityCoordinates(HashMap<Coordinates, Entity> map) {
-        final int MAXENTITIESONMAP = 32;
+        
 
         int x = 1;
         int y = 1;
         int counter = 0;
-        for (int i = 0; i <= 232; i++) {
+        for (int i = 0; i <= 900; i++) {
     		if(map.containsKey(new Coordinates(x, y))) {
                     if(map.get(new Coordinates(x,y)).animalType == AnimalType.PREDATOR || map.get(new Coordinates(x,y)).animalType == AnimalType.HERBIVORE) {
                         arrCoord.add(counter, new Coordinates(x, y));
@@ -332,7 +332,7 @@ public class Map {
                     }
                 }
     		x++;
-    		if(x==15) {
+    		if(x==30) {
     			x = 1;
     			y++;
                 }
@@ -467,8 +467,8 @@ public class Map {
     }
     
     public void checkEntitiesHealths() {
-        final int NUMBEROFMAPSELLS = 223;
-          // ++, ++ afte 15 
+        final int NUMBEROFMAPSELLS = 900;
+          // ++, ++ afte 30
     	int x = 1;
     	int y = 1;
     	for (int i = 0; i <= NUMBEROFMAPSELLS; i++) {
@@ -484,7 +484,7 @@ public class Map {
             }}
                 
     		x++;
-    		if(x==15) {
+    		if(x==30) {
     			x = 1;
     			y++;
     			
