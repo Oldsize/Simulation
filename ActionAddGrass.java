@@ -12,7 +12,7 @@ import java.util.Random;
 public class ActionAddGrass extends Action{
     Random random;
     Map mapMap = new Map();
-    private final int BOUND = 15;
+    private final int BOUND = 30;
     public HashMap<Coordinates, Entity> actionAddGrass(HashMap<Coordinates, Entity> map, int grassSummary ) {
         for(int i = 0; i < grassSummary; i++) {
         mapMap.setEntityOnMap(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Grass( new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83C\uDF43", AnimalType.GRASS, true), map);
