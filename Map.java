@@ -298,7 +298,11 @@ public class Map {
 
         return coordinates;
     }
-
+    public HashMap<Coordinates, Entity> setEntityOnMap(Coordinates coordinates, Entity entity, HashMap<Coordinates, Entity> map) {
+        map.put(coordinates, entity);
+        entity.setCoordinates(coordinates);
+        return map;
+    }
 
 
     private void setEntityPosition(Coordinates coordinates, Entity entity) {
@@ -385,6 +389,10 @@ public class Map {
         //GRASSES
         //🐺
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
+        setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Wolf(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC3A", 5, AnimalType.PREDATOR));
         //WOLF
         //🐅
         setEntityPosition(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Tiger(1, 30, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC05", 10, AnimalType.PREDATOR));
@@ -421,3 +429,4 @@ public class Map {
     	}
     }
 }
+
