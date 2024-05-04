@@ -12,7 +12,7 @@ import java.util.Random;
 public class ActionAddPredators extends Action {
     Random random;
     Map mapMap = new Map();
-    private final int BOUND = 15;
+    private final int BOUND = 30;
     public HashMap<Coordinates, Entity> actionAddHerbivores(HashMap<Coordinates, Entity> map, int herbivoreSummary ) {
         for(int i = 0; i < herbivoreSummary; i++) {
             mapMap.setEntityOnMap(new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), new Bear(1, 15, new Coordinates(random.nextInt(BOUND), random.nextInt(BOUND)), "\uD83D\uDC07", 20,  AnimalType.PREDATOR), map);
