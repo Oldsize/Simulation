@@ -1,5 +1,5 @@
 # Simulation
-Simulation, genethic alghorytm. v 0.2 (Stable work but didn't actions)
+Simulation, genethic alghorytm. v 0.3 (Stable work )
 
 If u wna start this on your pc you should be refactoring this imports, 
-sry idk how push project on github right. and idk how build project to .jar
+sry now idk how push project on github right. and now idk how build project to .jar
