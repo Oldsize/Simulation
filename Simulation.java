@@ -28,7 +28,7 @@ public class Simulation  {
             Entity tempEntity = tempMap.get(arrCoord.get(randomNumber));
             MapRenderer mapRenderer = new MapRenderer();
             mapRenderer.renderMap(tempMap);
-	    Thread.sleep(1000);
+	    Thread.sleep(1800);
 
             if(tempEntity != null) {
                 if(tempEntity.animalType == AnimalType.HERBIVORE) {
