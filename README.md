@@ -1,4 +1,4 @@
-# Simulation
+# Simulation OOP STYLE
 Simulation, genethic alghorytm. v 1.0 (Stable work)
 
 If u wna start this on your pc you should be refactoring this imports, 
